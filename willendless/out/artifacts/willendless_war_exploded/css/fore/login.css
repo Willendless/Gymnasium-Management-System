@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style:none;}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #242424;
+    line-height: 1.3;
+    font-weight: 700; }
+
+p {
+    color: #606060;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 500; }
+
+a,
+a:hover,
+a:focus {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    text-decoration: none;
+    outline: 0 solid transparent;
+    color: #141414;
+    font-weight: 600;
+    font-size: 14px; }
+
+ul,
+ol {
+    margin: 0; }
+ul li,
+ol li {
+    list-style: none; }
+
+img {
+    height: auto;
+    max-width: 100%; }
+
+body {
+    font: 12px/1.5 "微软雅黑";
+    background-color: #f0f0f0;
+}
+
+i {
+    font-style: normal;
+}
+
+.header-area{
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 90px;
+}
+
+/*header结束*/
+
+/*登陆框开始*/
+.login_wrapper{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    height: 600px;
+    background-size: 100%;
+}
+
+.login_content{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+
+.glass{
+    width:320px;
+    height: 320px;
+    position:absolute;
+    top:100px;
+    left:70px;
+    background-color: #ffffff;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+.login-item{
+    margin: 10px 10px 20px 10px;
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: center;
+}
+
+input{
+    height: 40px;
+    width: 285px;
+    border: 1px solid #D8D8D8;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.login-button{
+    margin: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 300px;
+    background-color: #3758B7;
+    cursor: pointer;
+    border-radius: 5px;
+    color:#ffffff;
+}
+
+.login-button:hover{
+    background-color: #4B72E3;
+}
+
+.login-text{
+    margin: 20px 20px 40px 20px;
+    color: blue;
+    display: block;
+}
+
+.login-footer-text{
+    margin: 15px;
+    text-decoration: none;
+}
+
+.login-forget{
+    text-align: right;
+    line-height: 30px;
+}

@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #242424;
+    line-height: 1.3;
+    font-weight: 700; }
+
+p {
+    color: #606060;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 500; }
+
+a,
+a:hover,
+a:focus {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    text-decoration: none;
+    outline: 0 solid transparent;
+    color: #141414;
+    font-weight: 600;
+    font-size: 14px; }
+
+ul,
+ol {
+    margin: 0; }
+ul li,
+ol li {
+    list-style: none; }
+
+img {
+    height: auto;
+    max-width: 100%; }
+
+
+.header-area{
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 90px;
+}
+
+/*header结束*/
+
+/*tab标签开始*/
+.introduce-menus{
+    float: left;
+    width:200px;
+    font-size:14px;
+    margin-top:10px;
+    margin-right: 50px;
+}
+
+.introduce-paper{
+    margin-top:20px;
+}
+.introduce-img{
+    width:400px;
+    height:250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.introduce-item{
+    margin-left: 220px;!important;
+    border: 1px solid #ddd;
+    width:880px;
+}
+
+.news-bar{
+    height:30px;
+}

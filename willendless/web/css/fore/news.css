@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #242424;
+    line-height: 1.3;
+    font-weight: 700; }
+
+p {
+    color: #606060;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 500; }
+
+a,
+a:hover,
+a:focus {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    text-decoration: none;
+    outline: 0 solid transparent;
+    color: #141414;
+    font-weight: 600;
+    font-size: 14px; }
+
+ul,
+ol {
+    margin: 0; }
+ul li,
+ol li {
+    list-style: none; }
+
+img {
+    height: auto;
+    max-width: 100%; }
+
+
+.header-area{
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 90px;
+}
+
+.backg-color{
+    background-color: #f0f0f0;
+}
+/*header结束*/
+
+/*tab标签开始*/
+.introduce-menus{
+    float: left;
+    width:200px;
+    font-size:14px;
+    margin-top:10px;
+    margin-right: 50px;
+}
+
+.introduce-paper{
+    margin-top:20px;
+
+}
+.introduce-img{
+    width:400px;
+    height:250px;
+}
+
+.icon {                                /*icons通用代码*/
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.news-gym-select{
+    font-style:normal;
+}
+
+.news-bar{
+    height:30px;
+}
+
+.news-item{
+    margin-left: 220px;
+    margin-right: 200px;
+    border: 1px solid #ddd;
+    padding:0;
+    width:880px;
+}
+
+.news-title{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
