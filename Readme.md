@@ -1,5 +1,11 @@
 # 场地预约管理系统
 
+  ###java-web课程项目作业，耗时5个星期完成，其中可能有部分bug，功能未完全完善。增删查改均手敲，html部分手敲，前端代码部分借鉴清华体育场馆预约系统。  
+  ###网页logo是用ps模仿清华体育场馆预约系统logo制作。
+
+# 技术
+>前端：html+css+js，jquery+bootstrap  
+>后端：jsp+servlet+javabean，未使用任何框架
 
 ### 依赖
 >jdk版本：1.8  
