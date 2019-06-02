@@ -1,6 +1,6 @@
 # 场地预约管理系统
 
->### java-web课程项目作业，没有使用任何框架。  
+>### java-web课程项目作业。  
 
 ### 技术
 >前端：html+css+js，jquery+bootstrap  
